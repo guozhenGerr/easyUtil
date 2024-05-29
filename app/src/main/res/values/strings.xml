@@ -1,0 +1,25 @@
+<resources>
+    <!--<string name="app_name">快进go!</string>-->
+    <!--zxing-->
+
+
+    <string name="msg_camera_framework_bug">The camera is occupied or has no camera permission, please check</string>
+
+    <string name="button_ok">Exit</string>
+
+    <string name="scan_code">Scan QR Code</string>
+
+    <string name="open_flash">Turn on the flash</string>
+
+    <string name="close_flash">Turn off the flash</string>
+
+    <string name="gallery">Gallery</string>
+
+    <string name="scan_failed_tip">Scan image failed, please retry.</string>
+
+    <string name="tecent_map">腾讯地图</string>
+    <string name="baidu_map">百度地图</string>
+    <string name="gaode_map">高德地图</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

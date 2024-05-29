@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeRulerView">
+        <attr name="textFontSize" format="dimension|reference"/>
+        <attr name="totalTimePerCell" >
+            <enum name="hour" value="24" />
+            <enum name="halfHour" value="48" />
+            <enum name="fifteenmin" value="96" />
+            <enum name="fivemin" value="288" />
+        </attr>
+        <attr name="textColors" format="color|reference"/>
+        <attr name="scaleColor" format="color|reference"/>
+        <attr name="topLineColor" format="color|reference"/>
+        <attr name="bottomLineColor" format="color|reference"/>
+        <attr name="middleLineColor" format="color|reference"/>
+        <attr name="selectBackgroundColor" format="color|reference"/>
+        <attr name="topLineStrokeWidth" format="dimension|reference"/>
+        <attr name="bottomLineStrokeWidth" format="dimension|reference"/>
+        <attr name="middleLineStrokeWidth" format="dimension|reference"/>
+        <attr name="scaleLineStrokeWidth" format="dimension|reference"/>
+        <attr name="widthPerScale" format="dimension|reference"/>
+        <attr name="showtimeHeight" format="dimension|reference"/>
+        <attr name="contentHeight" format="dimension|reference"/>
+    </declare-styleable>
+
+    <!--视频回放时间轴-->
+    <declare-styleable name="TimeRulerPickView">
+        <attr name="maxTotalTimePerCell" format="float|reference"/>
+        <attr name="minTotalTimePerCell" format="float|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandIndicator" format="reference" />
+        <attr name="collapseIndicator" format="reference" />
+        <attr name="expandToggleType" format="enum">
+            <enum name="ImageButton" value="0" />
+            <enum name="TextView" value="1" />
+        </attr>
+        <attr name="expandableTextId" format="reference" />
+        <attr name="expandCollapseToggleId" format="reference" />
+        <attr name="expandToggleOnTextClick" format="boolean" />
+        <attr name="needArrow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView">
+        <attr name="align">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AlignedTextView">
+        <attr name="atv_marginAndPaddingOfLeftRight" format="dimension"/>
+        <attr name="atv_lineSpacingExtra" format="dimension"/>
+        <attr name="atv_offset" format="dimension"/>
+        <attr name="atv_textSize" format="dimension"/>
+        <attr name="atv_textColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="radius" format="dimension" />
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+    </declare-styleable>
+
+    <!-- 垂直方向的虚线 -->
+    <declare-styleable name="DividerView">
+        <!-- 虚线颜色 -->
+        <attr name="divider_line_color" format="color"/>
+        <!-- 虚线宽度 -->
+        <attr name="dashThickness" format="dimension"/>
+        <!-- 虚线dash宽度 -->
+        <attr name="dashLength" format="dimension"/>
+        <!-- 虚线dash间隔 -->
+        <attr name="dashGap" format="dimension"/>
+        <!-- 虚线朝向 -->
+        <attr name="divider_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolBarHeight">140dp</dimen>
+    <!--视频回放-->
+    <dimen name="timerulerview_height">79dp</dimen>
+    <dimen name="timerulerview_showtimewidth">48dp</dimen>
+    <dimen name="timerulerview_showtimeheight">28dp</dimen>
+    <dimen name="timerulerview_showtime_marginbottom">1dp</dimen>
+    <dimen name="timerulerview_showtime_corner">2dp</dimen>
+    <dimen name="timerulerview_showtime_textsize">14sp</dimen>
+    <dimen name="timerulerview_contentheight">36dp</dimen>
+    <dimen name="timerulerview_arrowheight">6dp</dimen>
+    <dimen name="timerulerview_arrowheight_margin">1dp</dimen>
+    <dimen name="timerulerview_scaleheight">5dp</dimen>
+    <dimen name="timerulerpick_width">24dp</dimen>
+    <dimen name="timerulerpick_height">144dp</dimen>
+    <dimen name="timerulerpick_cornerwidth">20dp</dimen>
+    <dimen name="timerulerpick_edgewidth">2px</dimen>
+    <dimen name="time_height">26dp</dimen>
+    <dimen name="time_arrow_start_height">9dp</dimen>
+
+    <dimen name="pv_text_size">18sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+
+    <dimen name="common_navigator_height">28dp</dimen>
+</resources>

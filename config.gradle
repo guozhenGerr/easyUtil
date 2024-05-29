@@ -1,0 +1,82 @@
+
+ext {
+
+    android = [
+            compileSdkVersion   : 33,
+            minSdkVersion       : 21,
+            targetSdkVersion    : 26,
+            versionCode         : 1,
+            versionName         : "3.7.0"
+    ]
+
+
+    version = [
+            pictureselector     : "v3.11.2",
+            butterknife         : "10.2.3",
+            smartrefreshOld     : "1.0.3",
+            recyclerview        : "1.0.0",
+            appcompat           : "1.4.1",
+            material            : "1.4.0",
+            constraintlayout    : "2.1.4",
+            multidex            : "2.0.0",
+            lifecycle           : "2.6.1",
+            coreKtx             : "1.9.0",
+            ktCoroutinesAndroid : "1.6.4",
+            glide               : "4.12.0",
+            retrofit2           : "2.4.0",
+            gson                : "2.8.5",
+            okhttp3             : "3.14.9",
+            rxandroid           : "2.1.1",
+
+    ]
+
+    dependencies = [
+            //base
+            appcompat           : "androidx.appcompat:appcompat:${version["appcompat"]}",
+            recyclerview        : "androidx.recyclerview:recyclerview:${version["recyclerview"]}",
+            material            : "com.google.android.material:material:${version["material"]}",
+            constraintlayout    : "androidx.constraintlayout:constraintlayout:${version["constraintlayout"]}",
+
+            gson                : "com.google.code.gson:gson:${version["gson"]}",
+            okhttp3             : "com.squareup.okhttp3:okhttp:${version["okhttp3"]}",
+            rxandroid           : "io.reactivex.rxjava2:rxandroid:${version["rxandroid"]}",
+
+
+            coreKtx             : "androidx.core:core-ktx:${version["coreKtx"]}",
+            ktCoroutinesAndroid : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${version["ktCoroutinesAndroid"]}",
+
+            lifecycleViewmodel  : "androidx.lifecycle:lifecycle-viewmodel-ktx:${version["lifecycle"]}",
+            lifecycleRuntime    : "androidx.lifecycle:lifecycle-runtime-ktx:${version["lifecycle"]}",
+            lifecycleLivedata   : "androidx.lifecycle:lifecycle-livedata-ktx:${version["lifecycle"]}",
+
+            glide               : "com.github.bumptech.glide:glide:${version["glide"]}",
+            butterknife         : "com.jakewharton:butterknife:${version["butterknife"]}",
+            butterknifeCompiler : "com.jakewharton:butterknife-compiler:${version["butterknife"]}",
+
+            SmartRefreshLayout  : "com.scwang.smartrefresh:SmartRefreshLayout:${version["smartrefreshOld"]}",
+            SmartRefreshHeader  : "com.scwang.smartrefresh:SmartRefreshHeader:${version["smartrefreshOld"]}",
+
+            retrofit2           : "com.squareup.retrofit2:retrofit:${version["retrofit2"]}",
+            retrofit2Converter  : "com.squareup.retrofit2:converter-gson:${version["retrofit2"]}",
+
+            pictureselector     : "io.github.lucksiege:pictureselector:${version["pictureselector"]}",
+            psCompress          : "io.github.lucksiege:compress:${version["pictureselector"]}",
+            psUcrop             : "io.github.lucksiege:ucrop:${version["pictureselector"]}",
+            psCamerax           : "io.github.lucksiege:camerax:${version["pictureselector"]}",
+
+            tinypinyin          : "com.github.promeg:tinypinyin:2.0.3",
+            tinypinyinLexicons  : "com.github.promeg:tinypinyin-lexicons-android-cncity:2.0.3",
+            flexbox             : "com.google.android:flexbox:0.3.0",
+            eventbus            : "org.simple:androideventbus:latest",
+            orhanobutLogger     : "com.orhanobut:logger:1.15",
+            statusbarutil       : "com.jaeger.statusbarutil:library:1.4.0",
+            xxpermissions       : "com.hjq:xxpermissions:5.2",
+            filedownloader      : "com.liulishuo.filedownloader:library:1.7.7",
+            PickerView          : "com.contrarywind:Android-PickerView:4.1.9",
+            calendarview        : "com.haibin:calendarview:3.7.1",
+            MagicIndicator      : "com.github.hackware1993:MagicIndicator:1.7.0"
+
+
+    ]
+
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009eff</color>
+    <color name="colorPrimaryDark">#009eff</color>
+    <color name="colorAccent">#009eff</color>
+
+    <color name="contents_text">#000000</color>
+
+    <color name="encode_view">#ffffff</color>
+
+    <color name="possible_result_points">#ffbd21</color>
+
+    <color name="result_minor_text">#c0c0c0</color>
+
+    <color name="result_points">#99cc00</color>
+
+    <color name="result_text">#ffffff</color>
+
+    <color name="result_view">#000000</color>
+
+    <color name="status_text">#ffffff</color>
+
+    <color name="viewfinder_mask">#66000000</color>
+
+    <color name="react">#ffffff</color>
+
+    <color name="scanLineColor">#ffffff</color>
+
+    <color name="defaultColor">#ffffff</color>
+
+    <!--视频回放-->
+    <color name="timeruler_showtime_bg_color">#000000</color>
+    <color name="timeruler_showtime_text_color">#E6FFFFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="color33">#333333</color>
+    <color name="color66">#666666</color>
+    <color name="color99">#999999</color>
+    <color name="color_E33E44">#E33E44</color>
+    <color name="color_1F10E0">#1F10E0</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>
