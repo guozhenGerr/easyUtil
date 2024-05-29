@@ -9,3 +9,8 @@ fun RecyclerView.linear(linear: Boolean = true): RecyclerView {
         else LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
     return this
 }
+
+fun RecyclerView.header(): RecyclerView{
+
+    return this
+}

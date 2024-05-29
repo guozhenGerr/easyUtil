@@ -4,7 +4,7 @@ plugins {
 }
 
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.erdongchen'
+group='com.github.guozhenGerr'
 
 android {
     namespace 'com.example.easyutil'
